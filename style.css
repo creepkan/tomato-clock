@@ -1,0 +1,92 @@
+body {
+  font-family: system-ui;
+  background: #f06d06;
+  color: white;
+  text-align: center;
+}/* 页面整体样式 */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #fefefe;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* 容器样式 */
+.container {
+    background: #fff;
+    border: 2px solid #f5c2c2;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* 标题样式 */
+.title {
+    font-size: 28px;
+    color: #ff6b6b;
+    margin-bottom: 20px;
+}
+
+/* 倒计时样式 */
+.timer {
+    font-size: 48px;
+    color: #ff6b6b;
+    margin: 20px 0;
+}
+
+/* 输入框容器样式 */
+.input-container {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 14px;
+    color: #555;
+}
+
+input {
+    width: 100px;
+    padding: 8px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+/* 按钮样式 */
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.btn:hover {
+    background-color: #ff3d3d;
+}
+
+.btn.stop {
+    background-color: #aaa;
+}
+
+.btn.stop:hover {
+    background-color: #888;
+}
+
+/* 页脚样式 */
+.footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #888;
+}
